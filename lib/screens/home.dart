@@ -9,7 +9,10 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: <Widget>[const Header(), const RecentActivity()],
+        children: const <Widget>[
+          Header(),
+          RecentActivity(),
+        ],
       ),
     );
   }
